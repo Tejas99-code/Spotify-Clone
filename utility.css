@@ -1,0 +1,125 @@
+.border{
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.391); */
+}
+
+.flex{
+    display:flex;
+
+}
+
+.invert{
+  filter: invert(1);
+}
+
+.align{
+    align-items: center;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.bgred{
+    border: 1px solid red;
+    
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-grey{
+    /* background-color: #121212; */
+    background-color: black;
+}
+
+.radius{
+    border-radius: 3px;
+}
+
+.library ul{
+  overflow-x: hidden;
+}
+/* Apply dark scrollbar styles to a custom class */
+/* .library ul {
+    scrollbar-width: thin; 
+    scrollbar-color: #262626 #1a1b1a; 
+    scroll-margin: 100px;
+  } */
+
+ 
+
+  /* .library ul::-webkit-scrollbar-button{
+    display: none;
+  }
+
+  .library ul::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    
+  }
+ */
+
+ /* Remove the arrows on WebKit-based browsers */
+ .section2 ul::-webkit-scrollbar{
+  display: inline;
+  
+ }
+
+ 
+::-webkit-scrollbar-button {
+  display: none; /* Hides the up/down or left/right arrows */
+}
+
+/* Style the rest of the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Vertical scrollbar width */
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #444, #222); /* Thumb with gradient */
+  border-radius: 10px; /* Smooth, rounded scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Dark track */
+  border-radius: 10px; /* Rounded edges for the track */
+}
+
+  
+.redBorder{
+  border: 1px solid white;
+  
+}  
+ 
+.display::-webkit-scrollbar{
+  display: inline;
+  
+ }
+
+ ::-webkit-scrollbar-button {
+  display: none; /* Hides the up/down or left/right arrows */
+}
+
+/* Style the rest of the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Vertical scrollbar width */
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #444, #222); /* Thumb with gradient */
+  border-radius: 10px; /* Smooth, rounded scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Dark track */
+  border-radius: 10px; /* Rounded edges for the track */
+}
+
+.boxLine{
+  width: 92%;
+  height: 1px;
+  background-color: #222;
+  
+}

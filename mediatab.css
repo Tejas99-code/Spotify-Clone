@@ -1,0 +1,272 @@
+@media  (max-width:900px ) {
+    .leftSection{
+     position: absolute;
+     z-index: 5;
+     transform: translateX(-110%);
+        /* transition: ease-in-out; */
+     transition-duration: .5s;
+    }
+    .homeSearch{
+      gap: 2rem;
+      
+    }
+    .homeSearch ul{
+      gap: 1rem;
+    }
+    .homeSearch ul li{
+      font-size: 1.2rem;
+    }
+
+    .libraryName{
+      font-size: 1.3rem;
+    }
+    .section1{
+      padding-top: 5px;
+    }
+    .songBox{
+      height: 5rem;
+    }
+
+    .musicIcon{
+      height: 3rem;
+      width: 3rem;
+   
+    }
+
+    .musicIcon img{
+      width: 3rem;
+    }
+
+    .musicName{
+      font-size: 1.2rem;
+      height: 3rem;
+      max-height: 3rem;
+      overflow: hidden;
+    }
+
+    .playCircle{
+      padding: 0.8rem;
+    }
+
+    .playCircle img{
+      width: 1.2rem;
+    }
+
+    .rightSection{
+        width: 100vw;
+        transition-duration: .5s;
+        margin: 0;
+    }
+    .arrows{
+      display: none;
+    }
+
+    .logoAndLeftArrow > :nth-child(2){
+        display: flex;
+      }
+
+     .hamburger{
+        display: flex;
+     } 
+
+     .mainSpotify{
+      display: flex;
+     }
+
+     .playBar,.musicTime,.seekSection1{
+        width: 80vw;
+     }
+
+     
+     
+     .cardContainer{
+     width: 80vw;
+      gap: 2.2rem;
+      align-content: center;
+      padding-left: 2rem;
+      justify-content: space-between;
+      margin: auto;
+     }
+
+     .card1{
+        width:45%;
+        height: 400px;
+        padding-inline: 0;
+     }
+
+     .card1:hover{
+       
+      .greenPlayCircle{
+        bottom: 2.5rem;
+        
+      }
+   }
+     .greenPlayCircle{
+     
+      height: 4rem;
+      width: 4rem;
+    }
+
+    .greenPlayCircle .playBtn{
+      width: 30px;
+    }
+     .title{
+        width: 260px;
+        height: 2.6rem;
+        font-size: 2rem; 
+     }
+
+     .description{
+        width: 260px;
+        font-size: 22px; 
+     }
+     .image{
+        width: 95%;
+        height: 280px;
+     }
+
+     .header{
+      font-size:2.2rem ;
+      padding-left: 3rem;
+     }
+
+     .mainFooter{
+      padding-left: 4rem !important;
+     }
+
+    .footerLinks{
+      font-size: 1.4rem !important;
+    }
+
+
+     .footerColumn{
+      min-width: 18rem;
+     }
+     
+     
+     .footerColumn h3{
+      font-size: 2rem;
+     }
+
+     .footerImage{
+      height: 4rem !important;
+      width: 4rem !important;
+     }
+
+     .footerImage img{
+      width: 2.3rem;
+     }
+
+     .footer2Section1 li{
+      font-size: 1.4rem;
+     }
+     
+     .footer2Section2{
+      font-size: 1.4rem;
+     }
+    
+     .seekBar{
+      gap: 1rem;
+     }
+
+     .seekBar img{
+      height: 3rem;
+      width: 3rem;
+     }
+
+     .seekBarDetails{
+      width: 70%;
+      height: 4.9rem;
+      
+     }
+
+     .seekBarImage{
+      width: 4rem;
+      height: 4rem;
+     }
+
+     .seekBarImage img{
+      width: 4rem;
+      height: 4rem;
+      object-fit: cover;
+     }
+     
+     
+
+     .seekBarSongName{
+      font-size: 2rem;
+      height: 2rem;
+      margin-bottom: 1rem;
+     }
+
+     .seekBarFolderName{
+      font-size: 1.5rem;
+     }
+
+     .startTime,.endTime{
+      font-size: 2rem;
+     }
+
+    .seekBar .playCircle{
+      width: 4rem;
+      height: 4rem;
+      align-items: center;
+      justify-content: center;
+     }
+
+     .playBar{
+      height: 0.6rem;
+     }
+
+     .greenBar{
+      height: 0.6rem;
+     }
+
+     .sliderCircle{
+      height: 1.3rem;
+      width: 1.3rem;
+     }
+}
+
+@media  (max-width:767px){
+
+  .card1{
+    width: 45%;
+    
+    
+  }
+  .title,.description{
+    width: 95%;
+  }
+
+  
+}
+
+@media  (max-width:660px){
+  
+  .card1{
+    width: 90%;
+    min-height: 35rem;
+    gap: 1rem;
+    margin: auto;
+  }
+  .image{
+    min-height:80%;
+    width: 95%;
+  }
+  .title,.description{
+    width: 90%;
+  }
+  .volume{
+    display: none;
+  }
+  .seekBar{
+   gap: 0;
+  }
+  .seekBarDetails{
+    width: 100%;
+  }
+  .seekBarNameandFolderName{
+    width: 100%;
+  }
+}
